@@ -1,0 +1,10 @@
+{
+  "name": "BiterBias",
+  "version": "0.0.1",
+  "title": "BiterBias",
+  "author": "Reika",
+  "contact": "",
+  "homepage": "",
+  "description": "Allows the biter/spitter spawn ratio to be modified.",
+  "dependencies": ["base >= 0.12.0"]
+}
