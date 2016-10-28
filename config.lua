@@ -7,7 +7,7 @@ BiterBias.globalSpawnRate = 1.0
 BiterBias.biterRate = 1.0 --2.0 is a good medium
 
 -- change this to modify the bias factor, that is, the Biter/Spitter spawn ratio. 1.0 is vanilla settings, 0.5 is default (i.e. 50% of spitter spawns become biter spawns).
-BiterBias.biasFactor = 0.6
+BiterBias.biasFactor = 0.33
 
 -- To compensate for the reduced difficulty (since spitters are more dangerous than biters), increase biter spawn size (as per the evolution factor). Note that this does not make any size appear earlier, just more likely once it does appear.
 BiterBias.biggerBiters = true
