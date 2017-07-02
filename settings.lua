@@ -1,0 +1,38 @@
+data:extend({
+        {
+            type = "double-setting",
+            name = "global-spawn-rate",
+            setting_type = "startup",
+            default_value = 1.0,
+            order = "r",
+			localised_name = "Global spawn rate multiplier",
+			localised_description = "Change this to affect the global spawn rate; it is multiplied by all spawn rates (and by biterRate for biter spawn rate). 1.0 is vanilla and default.",
+        },
+        {
+            type = "double-setting",
+            name = "biter-rate",
+            setting_type = "startup",
+            default_value = 1.0,
+            order = "r",
+			localised_name = "Biter spawn rate multiplier",
+			localised_description = "Change this to modify the biter spawner spawn rate. 1.0 is vanilla settings.",
+        },
+        {
+            type = "double-setting",
+            name = "bias-factor",
+            setting_type = "startup",
+            default_value = 0.33,
+            order = "r",
+			localised_name = "Biter bias factor",
+			localised_description = "Change this to modify the bias factor, that is, the Biter/Spitter spawn ratio. 1.0 is vanilla settings; at 0.5, 50% of spitter spawns become biter spawns. At 0.25, 75% do.",
+        },
+        {
+            type = "bool-setting",
+            name = "bigger-biters",
+            setting_type = "startup",
+            default_value = true,
+            order = "r",
+			localised_name = "Increased probability of larger biters",
+			localised_description = "To compensate for the reduced difficulty (since spitters are more dangerous than biters), increase biter spawn size (as per the evolution factor). Note that this does not make any size appear earlier, just more likely once it does appear.",
+        },
+})
