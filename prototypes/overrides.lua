@@ -5,7 +5,7 @@ biterCurve =
                      local res = {}
                      res[1] = {"small-biter", {{0.0, 0.3}, {0.7, 0.0}}}
                      res[2] = {"medium-biter", {{0.3, 0.0}, {0.6, 0.3}, {0.8, 0.0}}}
-                     res[3] = {"big-biter", {{0.6, 0.2}, {1.0, 0.3}}}
+                     res[3] = {"big-biter", {{0.5, 0.2}, {1.0, 0.3}}}
                      res[4] = {"behemoth-biter", {{0.95, 0.0}, {0.99, 0.2}, {1.0, 0.7}}}
                      return res
                    end)()
@@ -20,7 +20,7 @@ spitterCurve = (function()
                      res[1] = {"small-biter", {{0.0, 0.3}, {0.35, 0}}}
                      res[2] = {"small-spitter", {{0.25, 0.0}, {0.5, 0.3}, {0.7, 0.0}}}
                      res[3] = {"medium-spitter", {{0.5, 0.0}, {0.7, 0.3}, {0.9, 0.1}}}
-                     res[4] = {"big-spitter", {{0.6, 0.0}, {1.0, 0.4}}}
+                     res[4] = {"big-spitter", {{0.72, 0.0}, {1.0, 0.4}}}
                      res[5] = {"behemoth-spitter", {{0.99, 0.0}, {1.0, 0.5}}}
 					 
 					 res[6] = {"medium-biter", {{0.5, 0.0}, {0.7, 0.3*f}, {0.9, 0.1*f}}}
