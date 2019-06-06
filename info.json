@@ -5,7 +5,7 @@
   "author": "Reika",
   "contact": "",
   "homepage": "",
-  "factorio_version": "0.16",
+  "factorio_version": "0.17",
   "description": "Allows the biter/spitter spawn ratio to be modified.",
-  "dependencies": ["base >= 0.16.0"]
+  "dependencies": ["base", "DragonIndustries"]
 }
