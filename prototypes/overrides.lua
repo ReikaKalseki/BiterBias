@@ -11,7 +11,7 @@ biterCurve =
                    end)()
 
 if BiterBias.biasFactor == 0 then
-	error(serpent("Bias factor was set to zero, this is invalid!"))
+	error(serpent.block("Bias factor was set to zero, this is invalid!"))
 end		   
 f = 1/BiterBias.biasFactor - 1
 				   

@@ -22,6 +22,8 @@ data:extend({
             name = "bias-factor",
             setting_type = "startup",
             default_value = 0.33,
+			minimum_value = 0.01,
+			maximum_value = 0.99,
             order = "r",
 			localised_name = "Biter bias factor",
 			localised_description = "Change this to modify the bias factor, that is, the Biter/Spitter spawn ratio. 1.0 is vanilla settings; at 0.5, 50% of spitter spawns become biter spawns. At 0.25, 75% do.",
