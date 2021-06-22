@@ -6,7 +6,7 @@ biterCurve =
                      res[1] = {"small-biter", {{0.0, 0.3}, {0.7, 0.0}}}
                      res[2] = {"medium-biter", {{0.3, 0.0}, {0.6, 0.3}, {0.8, 0.0}}}
                      res[3] = {"big-biter", {{0.5, 0.2}, {1.0, 0.3}}}
-                     res[4] = {"behemoth-biter", {{0.95, 0.0}, {0.99, 0.2}, {1.0, 0.7}}}
+                     res[4] = {"behemoth-biter", {{0.9, 0.0}, {0.94, 0.2}, {1.0, 0.7}}}
                      return res
                    end)()
 
@@ -25,7 +25,7 @@ spitterCurve = (function()
 					 
 					 res[6] = {"medium-biter", {{0.5, 0.0}, {0.7, 0.3*f}, {0.9, 0.1*f}}}
                      res[7] = {"big-biter", {{0.6, 0.0}, {1.0, 0.4*f}}}
-                     res[8] = {"behemoth-biter", {{0.99, 0.0}, {1.0, 0.3*f}}}
+                     res[8] = {"behemoth-biter", {{0.9, 0.0}, {1.0, 0.3*f}}}
                      return res
                    end)()
 
